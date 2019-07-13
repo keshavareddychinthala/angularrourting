@@ -1,0 +1,18 @@
+<div class="row">
+        <div class="col-2" *ngFor="let a of n" >
+    <div >
+        <p></p>
+       <a [routerLink]="['/details',a.id,a.pic]"><img src="{{a.pic}}"></a> 
+        
+        
+        
+        
+        </div>
+      
+    </div>
+</div>
+<h2>
+
+{{a.add}}
+{{a.uname}}</h2>
+<mat-slider></mat-slider>
